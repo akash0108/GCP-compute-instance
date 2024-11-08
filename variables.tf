@@ -34,8 +34,8 @@ variable "network" {
       default  = "default" 
 }
 
-variable "project_id" {
-      description = "This is the project ID"
-      type =  string
-}
+#variable "project_id" {
+#      description = "This is the project ID"
+#      type =  string
+#}
 
