@@ -30,11 +30,12 @@ variable "type" {
 
 variable "network" {
       description = "newtork to be attached"
-      type        = string 
+      type        = string
+      default  = "default" 
 }
 
 variable "nat_ip" {
       description = "External IP"
-      default  = "null"
+      default  = "default"
 }
 
