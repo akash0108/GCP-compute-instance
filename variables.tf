@@ -5,7 +5,7 @@ variable "name" {
 
 variable "zone" {
       description = "list of zones"
-      type = list
+      type = string
 }
 
 variable "machine_type" {
@@ -34,8 +34,8 @@ variable "network" {
       default  = "default" 
 }
 
-variable "nat_ip" {
-      description = "External IP"
-      default  = "default"
+variable "project_id" {
+      description = "This is the project ID"
+      type =  string
 }
 
